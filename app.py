@@ -28,7 +28,7 @@ def home():
 
 @app.route("/health")
 def health():
-    return "OK", 200
+    return "200", 200
 
 @app.route("/api/tasks", methods=["GET"])
 def list_tasks():
